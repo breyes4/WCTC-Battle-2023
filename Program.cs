@@ -10,6 +10,7 @@ namespace Class05
 
             IArmor armor = new Leather("Elven Leather Armor", 12);
             IWeapon sword = new Sword("Long sword", 5);
+            IMagic rune = new Rune ("Ancient Blue Rune", 8);
 
             ICombatant fighter = new Fighter("Fighter Fred", armor, sword);
             ICombatant badGuy = new Fighter("Scary Monster", armor, sword);
