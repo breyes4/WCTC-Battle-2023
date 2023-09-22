@@ -3,6 +3,6 @@
     public interface IMagic
     {
         public string Name { get; set; }
-        public int Power { get; set; }
+        public int Sorcery { get; set; }
     }
 }
